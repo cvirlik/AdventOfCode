@@ -61,7 +61,7 @@ def find_parts(matrix):
 if __name__ == '__main__':
     sum = 0
     matrix = []
-    with open("Day 3/input.txt") as file:
+    with open("2023/Day 3/input.txt") as file:
         for line in file.read().split('\n'):
             matrix.append(re.findall(r'\S', line))
     print(find_parts(matrix))

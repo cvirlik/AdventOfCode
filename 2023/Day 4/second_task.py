@@ -12,12 +12,12 @@ def check_prize(win, our, card: int, cards: dict):
 
 if __name__ == '__main__':
     cards = {}
-    with open("Day 4/input.txt") as file:
+    with open("2023/Day 4/input.txt") as file:
         x = len(file.readlines())
         for i in range(x):
             cards[i+1] = 1
 
-    with open("Day 4/input.txt") as file:
+    with open("2023/Day 4/input.txt") as file:
         for line in file.read().split('\n'):
             card, nums = line.split(': ')
             card = int(re.search(r'\d+', card).group())

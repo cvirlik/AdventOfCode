@@ -22,7 +22,7 @@ def is_possible(game_line: str):
 
 if __name__ == '__main__':
     sum = 0
-    with open("Day 2/input.txt") as file:
+    with open("2023/Day 2/input.txt") as file:
         for line in file.read().split('\n'):
             r, g, b = is_possible(line)
             if b:

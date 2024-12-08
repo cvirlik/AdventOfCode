@@ -8,7 +8,7 @@ def get_num(text_line: str):
 
 if __name__ == '__main__':
     sum = 0
-    with open('input.txt') as file:
+    with open("2023/Day 1/input.txt") as file:
         for line in file:
             sum += get_num(line)
     print(sum)

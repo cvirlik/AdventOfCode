@@ -8,7 +8,7 @@ def check_prize(win, our):
 
 if __name__ == '__main__':
     sum = 0
-    with open("Day 4/input.txt") as file:
+    with open("2023/Day 4/input.txt") as file:
         for line in file.read().split('\n'):
             game, nums = line.split(': ')
             win, our = [x.split(' ') for x in nums.split(' | ')]
