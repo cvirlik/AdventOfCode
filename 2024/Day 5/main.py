@@ -1,5 +1,3 @@
-import re
-import numpy as np
 def read_file(file_name):
     with open(file_name, 'r') as data:
         content = data.read()
